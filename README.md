@@ -1,6 +1,3 @@
-# CS50-Web
-The projects I have done for the course "CS50’s Web Programming with Python and JavaScript".
-
-CS50’s Web Programming with Python and JavaScript is a course that picks up where CS50x leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience.
-
-In this repository I keep all of the projects I've done for CS50 Web so far (each project is on a different branch). My final project is currently in progress and to be added soon. 
+# Commerce
+The purpose of this project was to design an eBay-like e-commerce auction site that allows users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.” 
+A review of the complete project can be found at https://youtu.be/tMDED0Sc48c
