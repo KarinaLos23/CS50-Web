@@ -1,6 +1,3 @@
-# CS50-Web
-The projects I have done for the course "CS50’s Web Programming with Python and JavaScript".
-
-CS50’s Web Programming with Python and JavaScript is a course that picks up where CS50x leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience.
-
-In this repository I keep all of the projects I've done for CS50 Web so far (each project is on a different branch). My final project is currently in progress and to be added soon. 
+# Wiki
+The purpose of the project was to design a Wikipedia-like online encyclopedia where one could search for existing entries and edit them, also add new entries. There is also a little fun tool that gives one a random entry to read. 
+A review of the complete project can be found at https://youtu.be/1Kouz7DcB6w
