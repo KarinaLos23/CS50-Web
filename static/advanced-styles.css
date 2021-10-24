@@ -1,0 +1,78 @@
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.logo {
+    width: 35%;
+}
+
+.advanced-search {
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.searchBar {
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+h6 {
+    margin-left: 2%;
+}
+
+p {
+    font-size: 12px;
+}
+
+.example {
+    font-family:monospace;
+    color: gray;
+}
+
+strong {
+    margin-left: 40%;
+    font-size: 14px;
+    color: gray;
+}
+
+.top {
+    margin-top: 3%;
+}
+
+td {
+    padding: 0.5%;
+}
+
+.text-cell {
+    width: 5%;
+}
+
+.form-cell {
+    width: 15%;
+}
+
+.example-cell {
+    width: 20%;
+}
+
+table {
+    margin: 2%;
+}
+
+#blue-button {
+    background-color: #4c8bf5;
+    color: white;
+    border: 1px solid blue;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 41.5%;
+}
+
+.searchBar:focus {
+    border: 1.5px solid #4c8bf5;
+}
+
+p, input, h6 {
+    display: inline;
+}

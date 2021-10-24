@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advanced</title>
+    <link rel="stylesheet" href="./static/advanced-styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-dark" style="background-color: #F0F0F0;">
+    <a class="navbar-brand" href="./index.html"><img src="./static/small-logo.png" class="logo"></a>
+</nav>
+<img src="./static/advanced-search.png" class="advanced-search">
+<hr>
+<div class="top">
+    <h6>Find pages with...</h6>
+    <p><strong>To do this in the search box.</strong></p>
+</div>
+<form action="https://google.com/search">
+    <table>
+        <tr>
+            <td class="text-cell"><p>all these words:</p></td>
+            <td class="form-cell">
+                <input type="text" name="as_q" class="searchBar">
+            </td>
+            <td class="example-cell">
+                <p>Type the important words:</p>
+                <p class="example">tri-colour rat terrier</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-cell"><p>this exact word or phrase:</p></td>
+            <td class="form-cell">
+                <input type="text" name="as_epq" class="searchBar">
+            </td>
+            <td class="example-cell">
+                <p>Put exact words in quotes:</p>
+                <p class="example">"rat terrier"</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-cell"><p>any of these words:</p></td>
+            <td class="form-cell">
+                <input type="text" name="as_oq" class="searchBar">
+            </td>
+            <td class="example-cell">
+                <p>Type OR between all the words you want</p>
+                <p class="example">miniature OR standard</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-cell"><p>none of these words:</p></td>
+            <td class="form-cell">
+                <input type="text" name="as_eq" class="searchBar">
+            </td>
+            <td class="example-cell">
+                <p>Put a minus sign just before words that you
+                    don't want:</p>
+                <p class="example">-rodent, -"Jack Russell"</p>
+            </td>
+        </tr>
+    </table>
+    <button class="btn btn-primary" id="blue-button" type="submit">Advanced Search</button>
+</form>
+</body>
+</html>
